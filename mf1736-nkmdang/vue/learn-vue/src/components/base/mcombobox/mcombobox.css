@@ -1,0 +1,130 @@
+.combobox-container {
+}
+
+.combobox-container:hover .combobox-box {
+  border-color: #e6e6e6;
+}
+
+.combobox-box:hover,
+.combobox-box:hover input {
+  background-color: #f6f6f6;
+}
+
+/* .combobox-container:hover input,
+.combobox-container:hover .combobox-sub-cont {
+  background-color: #e0e0e0;
+} */
+
+label {
+  margin-bottom: 8px;
+}
+
+.combobox-box {
+  height: var(--height-text-input);
+  overflow: hidden;
+  border-radius: 4px;
+  border-collapse: collapse;
+  display: flex;
+  border: 1px solid #e0e0e0;
+  /* height: var(--width-combobox-angle-btn); */
+  /* margin: 5px 0; */
+}
+
+.combobox-input {
+  width: calc(100% - 36px);
+  height: var(--height-text-input);
+}
+
+.combobox-input input {
+  display: block;
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0 0 0 8px;
+  height: 100%;
+  width: 100%;
+}
+
+.combobox-sub-cont {
+  cursor: pointer;
+  /* border: ; */
+  overflow: hidden;
+  width: var(--height-text-input);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #e0e0e0;
+}
+
+.combobox-sub-cont:hover {
+  background-color: #ccc !important;
+}
+
+.combobox-drop-list {
+  display: none;
+  margin-top: 4px;
+  width: 100%;
+  min-height: 100px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.combobox-drop-item {
+  height: var(--heght-text-input);
+  width: 100%;
+  font-size: 13px;
+  padding: 0 10px;
+  line-height: 16px;
+  margin: 6px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.combobox-drop-item:hover {
+  background-color: rgba(80, 184, 60, 0.1);
+}
+
+.combobox-drop-item--hover {
+  background-color: #9cd5b3;
+}
+
+.icon__vdown {
+  background-position: -1129px -365px;
+  width: 14px;
+  height: 8px;
+}
+
+/* Danh sách droplist */
+.combobox-droplist-cont {
+  position: absolute;
+  padding: 8px;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 4px;
+  min-height: 46px;
+  max-height: 308px;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.combobox-droplist-item {
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 7px 9px 7px;
+  cursor: pointer;
+}
+
+.combobox-droplist-item:hover {
+  background-color: #9cd5b3;
+}
+
+/* 
+  Trạng thái của option trong combobox
+ */
+.option--selected {
+  color: #39ac66;
+}

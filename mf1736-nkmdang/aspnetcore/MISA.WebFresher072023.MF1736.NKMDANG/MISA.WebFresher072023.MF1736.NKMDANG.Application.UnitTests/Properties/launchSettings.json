@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MISA.WebFresher072023.MF1736.NKMDANG.Application.UnitTests": {
+      "commandName": "Project",
+      "nativeDebugging": true,
+      "sqlDebugging": false,
+      "jsWebView2Debugging": false
+    }
+  }
+}

@@ -1,0 +1,263 @@
+.emp-detail-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  /* display: none; */
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+input:focus {
+  border-color: #2ca012;
+}
+.emp-detail-container label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+}
+
+.emp-detail-box {
+  border-radius: 5px;
+  background-color: #fff;
+  width: 900px;
+  min-height: 300px;
+  padding: 24px;
+}
+
+.emp-detail-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.emp-detail-title h1 {
+  margin-right: 5px;
+}
+
+.emp-detail-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 6px;
+}
+
+.emp-detail-checkbox input {
+  /* margin: 0 5px; */
+  width: 17px;
+  /* height: 17px; */
+}
+
+.emp-detail-checkbox .customer-role {
+  margin: 0 5px;
+  font-size: 13px;
+  /* display: flex;
+  align-items: flex-end; */
+}
+
+.emp-detail-help {
+  background-position: -732px -31px;
+  width: 22px;
+  height: 22px;
+  /* margin-right: 8px; */
+}
+
+.emp-detail-close {
+  background-position: -147px -147px;
+  width: 18px;
+  height: 18px;
+}
+
+.emp-detail-body {
+  margin-top: 12px;
+}
+
+.emp-detail-form {
+  display: flex;
+}
+
+.emp-detail-form label {
+  margin-bottom: 5px;
+}
+
+.emp-detail-form input[type="text"] {
+  /* height: 26px; */
+  /* margin: 5px 0; */
+  border-color: #babec5;
+}
+
+.emp-detail-form input[type="text"]:focus {
+  border-color: #2ca012;
+}
+
+.emp-detail-left {
+  width: 50%;
+  padding-right: 10px;
+}
+
+.emp-left-head {
+  display: flex;
+}
+
+.emp-detail-half-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.emp-detail-form label {
+  display: flex;
+  font-size: 13px;
+}
+
+.emp-detail-form .fa-solid {
+  font-size: 7px;
+  color: red;
+  margin: 0 3px;
+  display: flex;
+  align-items: center;
+}
+
+.emp-detail-half-box .emp-code {
+  width: 158px;
+}
+
+.emp-detail-full-box {
+  margin-top: 15px;
+}
+.emp-detail-half-box input[type="text"] {
+  width: 100%;
+}
+
+.emp-detail-full-box input[type="text"] {
+  width: 100%;
+}
+
+.emp-detail-right {
+  padding-left: 10px;
+  width: 50%;
+}
+
+.emp-right-head {
+  display: flex;
+}
+
+.gender {
+  font-size: 13px;
+  margin-right: 20px;
+}
+/*  */
+.emp-detail-half-box2 {
+  margin-left: 20px;
+}
+
+.emp-detail-footer {
+  margin-top: 20px;
+}
+
+.emp-detail-footer input {
+  border: 1px solid #ccc;
+  /* height: 24px; */
+  margin: 5px 0;
+}
+
+.emp-detail-col3 {
+  margin-top: 10px;
+  width: 700px;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.emp-detail-td {
+  width: 33%;
+  /* display: flex;
+  fle */
+}
+
+.emp-detail-btn-box {
+  margin-top: 30px;
+}
+
+.emp-detail-btn-box hr {
+  border-top: 1px solid #ccc;
+}
+
+.emp-detail-btn-cont {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.emp-detail-btn-cont .cancel {
+  background-color: #fff;
+}
+
+.emp-footer-btn {
+  padding: 6px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.save-create {
+  width: 200px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.save {
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.save:hover {
+  background-color: #ccc;
+}
+
+.create {
+  color: #fff;
+  background-color: #50b83c;
+}
+
+.create:hover {
+  background-color: #6bc18d;
+}
+
+.create:active {
+  background-color: #055b27;
+}
+
+/* Thông báo trường thông tin trống */
+.input-container {
+  position: relative;
+}
+.empty-dialog-cont {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.empty-dialog-content {
+  font-size: 12px;
+  background-color: #000;
+  color: #fff;
+  width: 60%;
+  text-align: center;
+}
+.combobox {
+  height: 36px !important;
+}
+
+.combobox__input {
+  height: 36px !important;
+}
+
+.combobox__button {
+  height: 36px !important;
+}

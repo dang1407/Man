@@ -1,0 +1,129 @@
+@import url(./components/index.css);
+@import url(./tags/index.css);
+@import url(./icons/icons.css);
+/* Định nghĩa CSS chung */
+/* Font chữ dùng cho toàn app */
+
+@font-face {
+  font-family: MISA Fonts;
+  src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+
+@font-face {
+  font-family: MISA Bold;
+  src: url(../assets/fonts/notosans-bold.3ede5aff.woff2);
+}
+
+* {
+  font-family: MISA Fonts;
+  /* font-weight: bold; */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+}
+
+body {
+}
+
+/* Màu sắc sử dụng trong trang */
+:root {
+  --color-primary: #089740;
+  --color-focus: #055b27;
+  --color-hover: #39ac66;
+  --witdh-sidebar: 200px;
+  --witdh-sidebar-item: 176px;
+  --width-sidebar-item-icon: 24px;
+  --width-combobox-angle-btn: 26px;
+  --height-header: 56px;
+  --height-sidebar-item: 44px;
+  --width-radio-input-body: 12px;
+  --height-radio-input-body: 12px;
+  --width-radio-input-box: 20px;
+  --height-radio-input-box: 20px;
+  --height-text-input: 36px;
+}
+
+/*Begin:  Class viết sẵn */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.jcc {
+  display: flex;
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inl-flex-center {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt-roboto-14px-fw500 {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 0;
+}
+
+/* .icons {
+    display: inline-block;
+    background-image: url('../../assets/img/Sprites.64af8f61.svg');
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+} */
+
+.relative {
+  position: relative;
+}
+
+.icons-center-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-align-center-box {
+  display: flex;
+  align-items: center;
+}
+
+/* End: Class viết sẵn */
+
+a {
+  text-decoration: none;
+  /* color: #fff; */
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+}
+
+.right-container {
+  width: calc(100% - 178px);
+  height: 100vh;
+}
+
+input[type="checkbox"] {
+  background-color: #055b27;
+}

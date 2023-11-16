@@ -1,0 +1,18 @@
+.input-text {
+  height: 36px;
+  padding: 0px 8px;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+}
+.input-text::placeholder {
+  color: #999999;
+  font-size: 14px;
+}
+.input-text:hover {
+  background-color: #e0e0e0;
+  /* cursor: pointer; */
+}
+.input-text:focus {
+  border: 1px solid #50b83c;
+  outline: none;
+}

@@ -1,0 +1,10 @@
+.icons {
+  display: inline-block;
+  background-image: url("../../assets/img/Sprites.64af8f61.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.icons:hover ~ .tooltip-cont {
+  display: block;
+}

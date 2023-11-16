@@ -1,0 +1,65 @@
+.icon-box {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.icons {
+  display: inline-block;
+  background-image: url("../../assets/img/Sprites.64af8f61.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.icons:hover ~ .tooltip-cont {
+  display: block;
+}
+
+.warning-icon {
+  background-position: -593px -145px;
+  width: 22px;
+  height: 23px;
+}
+
+.icon__required {
+  color: red;
+  margin-left: 3px;
+}
+
+.icon--ticked {
+  background-position: -1225px -363px;
+  width: 14px;
+  height: 11px;
+}
+
+.icon--confirm {
+  background-position: -832px -462px;
+  width: 36px;
+  height: 36px;
+}
+
+.icon--error {
+  background-position: -752px -462px;
+  width: 36px;
+  height: 36px;
+}
+
+.icon--1129-365 {
+  background-position: -1129px -365px;
+  width: 14px;
+  height: 8px;
+}
+
+.icon--84-361 {
+  background-position: -84px -361px;
+  width: 8px;
+  height: 14px;
+}
+
+.icon--36-361 {
+  background-position: -36px -361px;
+  width: 8px;
+  height: 14px;
+}

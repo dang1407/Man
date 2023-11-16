@@ -1,0 +1,66 @@
+.header {
+  font-weight: bold;
+  width: 100%;
+  height: var(--height-header);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #000; */
+  padding-right: 20px;
+}
+
+/*BEGIN: Thông tin công ty */
+.comp-box {
+  display: flex;
+  align-items: center;
+}
+
+.hd-menu {
+  background-position: -847px -35px;
+  width: 16px !important;
+  height: 14px !important;
+  margin: 0 16px;
+}
+
+.hd-comp-name {
+}
+
+.angle-down-big {
+  background-position: -1129px -365px;
+  width: 14px !important;
+  height: 8px !important;
+  margin: 0 5px;
+}
+/* END: Thông tin công ty */
+
+/* BEGIN: Thông tin người dùng */
+.user-box {
+}
+
+.hd-notif-icon {
+  background-position: -788px -30px;
+  width: 22px !important;
+  height: 25px !important;
+  margin: 0 8px;
+}
+
+.angle-down-small {
+  background-position: -1799px -478px;
+  width: 9px !important;
+  height: 5px !important;
+  margin: 0 5px;
+}
+
+.user-thumb {
+}
+
+.user-thumb img {
+  height: calc(var(--height-header) - 20px);
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin: 0 24px;
+  width: 32px;
+  height: 32px;
+}
+
+/* END: Thông tin người dùng */

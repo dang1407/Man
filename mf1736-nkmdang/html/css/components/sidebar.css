@@ -1,0 +1,122 @@
+.sidebar {
+  width: var(--witdh-sidebar);
+  height: 100vh;
+  /* display: inline-block; */
+  background-color: #000;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.logo-container {
+  height: var(--height-header);
+  /* padding: 24px; */
+  padding: 0 24px;
+}
+
+.home-direct {
+  background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -425px -88px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.logo {
+  height: 32px;
+  width: 96px;
+  display: block;
+}
+
+.logo img {
+  width: 96px;
+  height: 32px;
+}
+
+/* Quick add voucher */
+
+/* .quick-add-voucher {
+    margin: 8px 0 13px ;
+    font-size: 13px;
+    color: #fff;
+}
+
+.quick-add-icon {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -34px -314px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+}
+
+.quick-add-btn {
+
+    background-size: 12px 12px;
+    width: 123px;
+    height: 27px;
+    border-radius: 30px;
+    border: 2px solid #d4d7dc;
+    padding: 5px 15px;
+} */
+
+/* Side */
+
+/* BEGIN: Sidebar */
+.sidebar-list {
+  /* height: calc(100% - --height-header); */
+  width: var(--witdh-sidebar);
+  /* overflow: auto; */
+  padding: 0 12px;
+}
+
+.sidebar-item-box {
+  height: var(--height-sidebar-item);
+  width: 100%;
+  margin: 4px 0;
+}
+
+.sidebar-item-box:hover {
+  background-color: #6b6c72;
+}
+
+.sidebar-item {
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: var(--height-sidebar-item);
+  width: var(--witdh-sidebar-item);
+  padding: 0 14px 0 8px;
+  line-height: 24px;
+}
+
+/* .sidebar-item {
+    background-color: #6b6c72;
+} */
+
+/*begin: icons */
+.sb-icon-box {
+  width: var(--width-sidebar-item-icon);
+  height: var(--height-sidebar-item);
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+.sidebar-item-icon {
+  display: inline-block;
+  /* width: var(--width-sidebar-item-icon);
+    height: var(--height-sidebar-item); */
+  background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+/*end: icons */
+.sidebar-item-title {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+/* END: Sidebar */

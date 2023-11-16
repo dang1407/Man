@@ -1,0 +1,214 @@
+.datepicker-container {
+  /* visibility: hidden; */
+  position: relative;
+  /* height: var(--height-text-input); */
+}
+/* .datepicker-container:hover .datepicker-box {
+  border-color: #50b83c;
+} */
+
+.border--50b83c {
+  border-color: #50b83c !important;
+}
+
+/* .datepicker-container:hover input,
+.datepicker-container:hover .date-icon {
+  background-color: #e6e6e6;
+} */
+
+.datepicker-box {
+  width: 140px;
+  height: var(--height-text-input);
+  overflow: hidden;
+  border-radius: 4px;
+  border-collapse: collapse;
+  display: flex;
+  /* visibility: hidden; */
+  border: 1px solid #e0e0e0;
+}
+
+.datepicker-input {
+  width: calc(100% - 36px);
+  height: var(--height-text-input);
+  position: relative;
+}
+
+.datepicker-input input[type="date"] {
+  display: block;
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0 0 0 10px;
+  height: 100%;
+  /* width: 100%; */
+  /* opacity: 0; */
+}
+
+.date-icon {
+  /* pointer-events: none; */
+  width: var(--height-text-input);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  z-index: 1000;
+  /* pointer-events: none; */
+  cursor: pointer;
+}
+
+.date-icon:hover {
+  background-color: #e0e0e0;
+}
+
+.icon-calendar {
+  background-position: -128px -312px;
+  width: 16px;
+  height: 16px;
+}
+
+.datepicker-content {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 320px;
+  height: 351px;
+  margin-top: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 24px;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+
+.input__date--text {
+  /* margin-top: -36px; */
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  width: 103px;
+  height: 36px;
+  outline: none;
+  border: none;
+  padding-left: 12px;
+}
+
+/* Chỉnh màu ngày được chọn trong thư viện flatpckr */
+.flatpickr-day.selected {
+  background-color: #2ca012 !important;
+  border-color: #2ca012 !important;
+}
+
+/* Danh sách thả dưới */
+.calendar__container {
+  width: 320px;
+  height: 351px;
+  position: absolute;
+  top: calc(100% + 4px);
+  z-index: 1000;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px #ccc;
+  background-color: #fff;
+}
+
+.calendar__box {
+  padding: 24px 24px 0 24px;
+}
+
+.calendar__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calendar__monthbox {
+  display: flex;
+}
+
+.calendar__month {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.calendar--icon {
+  border-radius: 4px;
+  margin-left: 4px;
+}
+
+.calendar--icon:hover {
+  background-color: #ccc;
+}
+
+.calendar__selectmonth--box {
+}
+.calendar__buttonbox {
+  display: flex;
+}
+
+.calendar__button--prev {
+  margin-right: 11px;
+}
+
+.calendar__body {
+  width: 272px;
+  height: 232px;
+}
+
+.weekdays__container {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.weekdays__item,
+.days__item {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.days__container {
+}
+
+.days__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.days__row + .days__row {
+  margin-top: 8px;
+}
+.days__item {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.days__item--selected {
+  background-color: #50b83c;
+}
+
+.calendar__footer {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.calendar__date {
+  width: 100%;
+  text-align: center;
+}
+
+.today {
+  color: #50b83c;
+}
+
+.hr {
+  width: 100%;
+  padding: 0 24px;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+}
